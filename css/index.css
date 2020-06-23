@@ -29,4 +29,9 @@ html {
 .is-signature {
 	color: white;
 	background-color: rgb(162, 0, 31) !important;
+	width: 50%;
+}
+
+#xip_First_Name {
+	background-color: rgb(235, 235, 235);
 }
