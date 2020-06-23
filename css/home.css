@@ -1,0 +1,32 @@
+html {
+	background-color: rgb(240, 240, 240);
+}
+
+.page {
+	padding-top: 75px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.caspio-block {
+	padding: 20px;
+	overflow: hidden;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+.caspio-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+button {
+	background-color: rgb(162, 0, 31) !important;
+}
+
+@media(max-width: 1000px) {
+	.page {
+		width: 90%;
+	}
+}

@@ -1,0 +1,30 @@
+html {
+	background-color: white;
+}
+
+.page {
+	margin-top: 25px;
+}
+
+.logo-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.caspio-login-block {
+	margin-top: 130px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.login-actions {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#logout-button {
+	background-color: rgb(162, 0, 31) !important;
+}
