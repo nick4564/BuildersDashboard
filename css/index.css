@@ -13,9 +13,10 @@ html {
 }
 
 .caspio-login-block {
+	display: flex;
 	margin-top: 130px;
-	margin-left: 10%;
-	margin-right: 10%;
+	justify-content: center;
+	align-items: center;
 }
 
 .login-actions {
@@ -25,6 +26,7 @@ html {
 	align-items: center;
 }
 
-#logout-button {
+.is-signature {
+	color: white;
 	background-color: rgb(162, 0, 31) !important;
 }
